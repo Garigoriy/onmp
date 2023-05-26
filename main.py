@@ -24,7 +24,7 @@ right = 12
 bottom = 15
 page_limit = 207 - left
 
-pdf = FPDF(format='A5')
+pdf = FPDF()
 pdf.set_margins(left, top, right)
 pdf.set_auto_page_break(True, bottom)
 pdf.add_page()
